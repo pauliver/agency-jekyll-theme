@@ -1,0 +1,156 @@
+{
+  "GalleryName": "gallery",
+  "DirectoryName": "/gallery",
+  "FullDirectoryPath": "/gallery/",
+  "GalleryIndexHTMLFile": "/gallery/Index.html",
+  "GalleryIndexMarkdownFile": "/gallery/Index.md",
+  "GalleryThumbnail": null,
+  "PhotoGalleries": [
+    {
+      "GalleryName": "Doges",
+      "DirectoryName": "/Doges",
+      "FullDirectoryPath": "/gallery/Doges",
+      "GalleryIndexHTMLFile": "/gallery/Doges.html",
+      "GalleryIndexMarkdownFile": "/gallery/Doges.md",
+      "GalleryThumbnail": "gallery\\Thumbnails\\thumbnail-Doges-00DF49F2-26B4-47FD-B621-5BABC1487215_1_105_c.jpeg",
+      "PhotoGalleries": [],
+      "Images": [
+        {
+          "ImageWidth": 805,
+          "ImageHeight": 1024,
+          "Name": "00DF49F2-26B4-47FD-B621-5BABC1487215_1_105_c.jpeg",
+          "Folder": "/gallery/Doges",
+          "OriginalFilePath": "gallery\\Doges\\00DF49F2-26B4-47FD-B621-5BABC1487215_1_105_c.jpeg",
+          "ResizedFilePath": "gallery\\Doges\\resized-00DF49F2-26B4-47FD-B621-5BABC1487215_1_105_c.jpeg",
+          "ThumbnailFilePath": "gallery\\Thumbnails\\thumbnail-Doges-00DF49F2-26B4-47FD-B621-5BABC1487215_1_105_c.jpeg"
+        },
+        {
+          "ImageWidth": 2048,
+          "ImageHeight": 1612,
+          "Name": "BestDoge.jpg",
+          "Folder": "/gallery/Doges",
+          "OriginalFilePath": "gallery\\Doges\\BestDoge.jpg",
+          "ResizedFilePath": "gallery\\Doges\\resized-BestDoge.jpg",
+          "ThumbnailFilePath": "gallery\\Thumbnails\\thumbnail-Doges-BestDoge.jpg"
+        },
+        {
+          "ImageWidth": 1580,
+          "ImageHeight": 2708,
+          "Name": "E7835038-7D81-40A1-9ACC-CA0EEF146297_1_201_a.jpeg",
+          "Folder": "/gallery/Doges",
+          "OriginalFilePath": "gallery\\Doges\\E7835038-7D81-40A1-9ACC-CA0EEF146297_1_201_a.jpeg",
+          "ResizedFilePath": "gallery\\Doges\\resized-E7835038-7D81-40A1-9ACC-CA0EEF146297_1_201_a.jpeg",
+          "ThumbnailFilePath": "gallery\\Thumbnails\\thumbnail-Doges-E7835038-7D81-40A1-9ACC-CA0EEF146297_1_201_a.jpeg"
+        },
+        {
+          "ImageWidth": 768,
+          "ImageHeight": 1024,
+          "Name": "EA9486AC-A69E-4F0F-98FD-BEF1D3C710E2_1_105_c.jpeg",
+          "Folder": "/gallery/Doges",
+          "OriginalFilePath": "gallery\\Doges\\EA9486AC-A69E-4F0F-98FD-BEF1D3C710E2_1_105_c.jpeg",
+          "ResizedFilePath": "gallery\\Doges\\resized-EA9486AC-A69E-4F0F-98FD-BEF1D3C710E2_1_105_c.jpeg",
+          "ThumbnailFilePath": "gallery\\Thumbnails\\thumbnail-Doges-EA9486AC-A69E-4F0F-98FD-BEF1D3C710E2_1_105_c.jpeg"
+        }
+      ],
+      "GeneratedDateTime": "3/12/2020 1:21:08 AM"
+    },
+    {
+      "GalleryName": "SubGallery",
+      "DirectoryName": "/SubGallery",
+      "FullDirectoryPath": "/gallery/SubGallery",
+      "GalleryIndexHTMLFile": "/gallery/SubGallery.html",
+      "GalleryIndexMarkdownFile": "/gallery/SubGallery.md",
+      "GalleryThumbnail": "gallery\\Thumbnails\\thumbnail-SubGallery-DA860723-B666-4527-B322-3FBEFB26F029_1_105_c.jpeg",
+      "PhotoGalleries": [],
+      "Images": [
+        {
+          "ImageWidth": 1021,
+          "ImageHeight": 770,
+          "Name": "DA860723-B666-4527-B322-3FBEFB26F029_1_105_c.jpeg",
+          "Folder": "/gallery/SubGallery",
+          "OriginalFilePath": "gallery\\SubGallery\\DA860723-B666-4527-B322-3FBEFB26F029_1_105_c.jpeg",
+          "ResizedFilePath": "gallery\\SubGallery\\resized-DA860723-B666-4527-B322-3FBEFB26F029_1_105_c.jpeg",
+          "ThumbnailFilePath": "gallery\\Thumbnails\\thumbnail-SubGallery-DA860723-B666-4527-B322-3FBEFB26F029_1_105_c.jpeg"
+        },
+        {
+          "ImageWidth": 1475,
+          "ImageHeight": 533,
+          "Name": "FC62D19C-AEC8-4468-89C7-A2A5D7420333_1_105_c.jpeg",
+          "Folder": "/gallery/SubGallery",
+          "OriginalFilePath": "gallery\\SubGallery\\FC62D19C-AEC8-4468-89C7-A2A5D7420333_1_105_c.jpeg",
+          "ResizedFilePath": "gallery\\SubGallery\\resized-FC62D19C-AEC8-4468-89C7-A2A5D7420333_1_105_c.jpeg",
+          "ThumbnailFilePath": "gallery\\Thumbnails\\thumbnail-SubGallery-FC62D19C-AEC8-4468-89C7-A2A5D7420333_1_105_c.jpeg"
+        },
+        {
+          "ImageWidth": 3986,
+          "ImageHeight": 1081,
+          "Name": "LetsDoThis.jpg",
+          "Folder": "/gallery/SubGallery",
+          "OriginalFilePath": "gallery\\SubGallery\\LetsDoThis.jpg",
+          "ResizedFilePath": "gallery\\SubGallery\\resized-LetsDoThis.jpg",
+          "ThumbnailFilePath": "gallery\\Thumbnails\\thumbnail-SubGallery-LetsDoThis.jpg"
+        },
+        {
+          "ImageWidth": 4032,
+          "ImageHeight": 3024,
+          "Name": "Needs.jpg",
+          "Folder": "/gallery/SubGallery",
+          "OriginalFilePath": "gallery\\SubGallery\\Needs.jpg",
+          "ResizedFilePath": "gallery\\SubGallery\\resized-Needs.jpg",
+          "ThumbnailFilePath": "gallery\\Thumbnails\\thumbnail-SubGallery-Needs.jpg"
+        },
+        {
+          "ImageWidth": 600,
+          "ImageHeight": 450,
+          "Name": "passed_all_tests.png",
+          "Folder": "/gallery/SubGallery",
+          "OriginalFilePath": "gallery\\SubGallery\\passed_all_tests.png",
+          "ResizedFilePath": "gallery\\SubGallery\\resized-passed_all_tests.png",
+          "ThumbnailFilePath": "gallery\\Thumbnails\\thumbnail-SubGallery-passed_all_tests.png"
+        },
+        {
+          "ImageWidth": 2269,
+          "ImageHeight": 2146,
+          "Name": "UseACoaster.jpeg",
+          "Folder": "/gallery/SubGallery",
+          "OriginalFilePath": "gallery\\SubGallery\\UseACoaster.jpeg",
+          "ResizedFilePath": "gallery\\SubGallery\\resized-UseACoaster.jpeg",
+          "ThumbnailFilePath": "gallery\\Thumbnails\\thumbnail-SubGallery-UseACoaster.jpeg"
+        }
+      ],
+      "GeneratedDateTime": "3/12/2020 1:21:08 AM"
+    },
+    {
+      "GalleryName": "ZoomBackgrounds",
+      "DirectoryName": "/ZoomBackgrounds",
+      "FullDirectoryPath": "/gallery/ZoomBackgrounds",
+      "GalleryIndexHTMLFile": "/gallery/ZoomBackgrounds.html",
+      "GalleryIndexMarkdownFile": "/gallery/ZoomBackgrounds.md",
+      "GalleryThumbnail": "gallery\\Thumbnails\\thumbnail-ZoomBackgrounds-Take things and go.jpg",
+      "PhotoGalleries": [],
+      "Images": [
+        {
+          "ImageWidth": 960,
+          "ImageHeight": 305,
+          "Name": "Take things and go.jpg",
+          "Folder": "/gallery/ZoomBackgrounds",
+          "OriginalFilePath": "gallery\\ZoomBackgrounds\\Take things and go.jpg",
+          "ResizedFilePath": "gallery\\ZoomBackgrounds\\resized-Take things and go.jpg",
+          "ThumbnailFilePath": "gallery\\Thumbnails\\thumbnail-ZoomBackgrounds-Take things and go.jpg"
+        },
+        {
+          "ImageWidth": 1024,
+          "ImageHeight": 768,
+          "Name": "ZoomBackground.jpeg",
+          "Folder": "/gallery/ZoomBackgrounds",
+          "OriginalFilePath": "gallery\\ZoomBackgrounds\\ZoomBackground.jpeg",
+          "ResizedFilePath": "gallery\\ZoomBackgrounds\\resized-ZoomBackground.jpeg",
+          "ThumbnailFilePath": "gallery\\Thumbnails\\thumbnail-ZoomBackgrounds-ZoomBackground.jpeg"
+        }
+      ],
+      "GeneratedDateTime": "3/12/2020 1:21:08 AM"
+    }
+  ],
+  "Images": [],
+  "GeneratedDateTime": "3/12/2020 1:21:08 AM"
+}

@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+{% comment %}{% seo %} {% endcomment %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      {% if site.useheader and site.title and site.title != page.title %}
+      <h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
+      {% endif %}
+
+{% include header.md %}
+
+
+    <div class="Content">
+    {{ content }}
+    </div>
+
+    <!-- Post Main Content Gallery (or should it be {{ layout.##### }} nope, it was page. ) -->
+    <div class="PostContentGallery">
+    {% if page.Gallery_Page %}
+
+      {% for gallery in site.data.galleryjson.PhotoGalleries %}
+      {% if page.Gallery_Name == "ALL" or gallery.GalleryName == page.Gallery_Name %}
+
+      <h2 id="{{gallery.GalleryName}}" class="GalleryLink"> 
+        <a href="{{gallery.FullDirectoryPath}}">{{gallery.GalleryName}}</a>
+      </h2>
+
+      <div class="image-container-{{gallery.GalleryName}} ImgContainer">
+      {% for images in gallery.Images %}
+
+      <!-- [![{{images.ThumbnailName}}]({{images.ThumbnailFilePath}})]({{gallery.FullDirectoryPath}}) -->
+      <a href="{{images.ResizedFilePath}}" data-fancybox="{{gallery.GalleryName}}" data-caption="{{gallery.GalleryName}} : {{images.Name}}">
+        <img class="image-thumb" src="{{images.ThumbnailFilePath}}" alt="{{images.Name}}}" />
+      </a>
+
+      {% endfor %}
+      </div>
+
+      {% for subGalleries in gallery.PhotoGalleries %}
+
+      <h3 id="{{subGalleries.GalleryName}}" class="GalleryLink"> 
+        <a href="{{subGalleries.FullDirectoryPath}}">{{subGalleries.GalleryName}}</a>
+      </h3>
+
+      <div class="image-container-{{subGalleries.GalleryName}} ImgContainer">
+      {% for subimages in subGalleries.Images %}
+
+      <!--[![{{subimages.ThumbnailName}}]({{subimages.ThumbnailFilePath}})]({{subGalleries.GalleryIndexHTMLFile}}) -->
+      <a href="{{subimages.ResizedFilePath}}" data-fancybox="{{subGalleries.GalleryName}}" data-caption="{{subGalleries.GalleryName}} : {{subimages.Name}}">
+        <img class="image-thumb" src="{{subimages.ThumbnailFilePath}}" alt="{{subimages.Name}}}" />
+      </a>
+
+      {% endfor %}
+      </div>
+
+      {% for ThreesubGalleries in subGalleries.PhotoGalleries %}
+
+      <h4 id="{{ThreesubGalleries.GalleryName}}" class="GalleryLink"> 
+        <a href="{{ThreesubGalleries.FullDirectoryPath}}">{{ThreesubGalleries.GalleryName}}</a>
+      </h4>
+
+      <div class="image-container-{{ThreesubGalleries.GalleryName}} ImgContainer">       
+      {% for Threesubimages in ThreesubGalleries.Images %}
+
+      <!-- [![{{Threesubimages.ThumbnailName}}]({{Threesubimages.ThumbnailFilePath}})]({{ThreesubGalleries.GalleryIndexHTMLFile}}) -->
+      <a href="{{Threesubimages.ResizedFilePath}}" data-fancybox="{{ThreesubGalleries.GalleryName}}" data-caption="{{ThreesubGalleries.GalleryName}} : {{Threesubimages.Name}}">
+        <img class="image-thumb" src="{{Threesubimages.ThumbnailFilePath}}" alt="{{Threesubimages.Name}}}" />
+      </a>
+
+      {% endfor %}
+      </div>
+
+      {% endfor %}
+
+      {% endfor %}
+
+      {% endif %}
+      {% endfor %}
+
+      {% endif %}
+      </div>
+      <script>
+
+      {% include gallery.js %}
+
+      </script> 
+
+
+{% include footer.md %}
+
+
+{% if site.github.private != true and site.github.license %}
+<div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
+  {% comment %} This site is open source. {% github_edit_link "Improve this page" %}. {% endcomment %}
+</div>
+{% endif %}
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+<script>anchors.add();</script>
+{% if site.google_analytics %}
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', '{{ site.google_analytics }}', 'auto');
+ga('send', 'pageview');
+</script>
+{% endif %}
+</body>
+</html>
