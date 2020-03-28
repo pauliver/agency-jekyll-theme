@@ -46,9 +46,9 @@
             <div class="intro-text">
                 <div class="intro-lead-in"> {{ site.header_heading }} </div>
                 <div class="intro-heading"> {{ site.subjects_subheading }} </div>
-                {% if header_button_enabled %}
+                {% if site.header_button_enabled %}
                 <a href="#{{ site.header_button_target }}" class="page-scroll btn btn-xl">{{ site.header_button_text }}</a>
-                {% endif header_button_enabled %}
+                {% endif %}
             </div>
         </div>
     </header>
