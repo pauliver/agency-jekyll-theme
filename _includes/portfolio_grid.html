@@ -20,7 +20,7 @@
                         {% if post.thumbnail %}
                         <img src="img/photography/{{ post.thumbnail }}" class="img-responsive img-centered" alt=""> 
                         {% else %} 
-                        {% assign FoundGallery = site.data.galleryjson.PhotoGalleries | where:"GalleryName", site.data.galleryjson.PhotoGalleries.GalleryName | first %}
+                        {% assign FoundGallery = site.data.galleryjson.PhotoGalleries | where:"GalleryName", post.Gallery_Name | first %}
                         <img src="img/photography/{{ FoundGallery.GalleryThumbnail }}" class="img-responsive img-centered" alt="">
                         {% endif %}
 

@@ -1,9 +1,6 @@
-
-
 # -----
 url: https://gallerytest.pauliver.com
 baseurl: /
-
 
 # -----
 # Colors are set in ./data/template.yml
@@ -40,7 +37,7 @@ subjects:
   pic: 1
   description: Lead Designer
   social:
-    - title: twitter
+    - title: modelmayhem
       url: #
     - title: facebook
       url: #
@@ -53,7 +50,7 @@ subjects:
   social:
     - title: twitter
       url: #
-    - title: facebook
+    - title: instagram
       url: #
     - title: linkedin
       url: #
@@ -73,7 +70,7 @@ subjects:
   pic: 1
   description: Lead Designer
   social:
-    - title: twitter
+    - title: flickr
       url: #
     - title: facebook
       url: #
@@ -95,7 +92,7 @@ subjects:
   pic: 3
   description: Lead Developer
   social:
-    - title: twitter
+    - title: pinterest
       url: #
     - title: facebook
       url: #
@@ -138,7 +135,7 @@ gear:
   description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
 
 # -----
-# Site Social networks usernames (many more available: instagram,  flickr, facebook,  pinterest, dribbble, google-plus, tumblr,  linkedin, etc.)
+# Site Social networks usernames (many more available: instagram,  flickr, facebook, pinterest, dribbble, google-plus, tumblr,  linkedin, etc.)
 social:
   - title: twitter
     url: http://twitter.com/jekyllrb
