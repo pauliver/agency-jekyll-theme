@@ -27,9 +27,10 @@ contact_background: /img/map-image.png
 
 # -----
 # Subjects Page
-subjects_heading: Our Favorite Subjects
-subjects_subheading: The people and places that we love to photograph.
-subjects_footer: "Always be respectful. For people: Don't say anything you wouldn't want your mother to see. For places: please take nothing but pictures and leave nothing but footprints."
+SubjectsPage: 
+  heading: Our Favorite Subjects
+  subheading: The people and places that we love to photograph.
+  footer: "Always be respectful. For people: Don't say anything you wouldn't want your mother to see. For places: please take nothing but pictures and leave nothing but footprints."
 
 # Subjects List
 subjects:
@@ -101,8 +102,10 @@ subjects:
 
 
 # -----
-gear_heading: Gear
-subjects_subheading: The equiptment we like to use.
+GearPage:
+  heading: Gear
+  subheading: The equiptment we like to use.
+
 gear:
 - name: Lens
   pic: 3
@@ -155,6 +158,7 @@ permalink: pretty
 
 # -----
 # Portfolio Settings
-portfolio_heading: Portfolio
-portfolio_subheading: Lorem ipsum dolor sit amet consectetur.
-portfolio_footer: "Always be respectful. For people: Don't say anything you wouldn't want your mother to see. For places: please take nothing but pictures and leave nothing but footprints."
+PortfolioPage: 
+  heading: Portfolio 
+  subheading: Lorem ipsum dolor sit amet consectetur.
+  
