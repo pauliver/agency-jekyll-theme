@@ -6,7 +6,7 @@ baseurl: /
 
 
 # -----
-# Colors are set in data/template.yml
+# Colors are set in ./data/template.yml
 # explore moving them here at some point in the future
 
 # -----
