@@ -1,11 +1,11 @@
 # From https://github.com/pauliver/Photo-Gallery-Template/blob/master/.github/workflows/main.yml
 name: Create Thumbnails, Compressed images, Build Jekyll Site, Branch to Release on Success
 env:
-  URL: "example.pauliver.com"
+  URL: "gallerytest.pauliver.com"
   AutoMergeLabel: "automerge"
   GHPages: "gh-pages"
   CurrentBranch: "master"
-  Repo: "Photo-Gallery-Template" #For everything to work properly, the repo should be named example.pauliver.com
+  Repo: "gallerytest.pauliver.com" #For everything to work properly, the repo should be named example.pauliver.com
   Owner: "pauliver"
  
 on:
