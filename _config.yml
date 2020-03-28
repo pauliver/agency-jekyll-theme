@@ -4,10 +4,16 @@ baseurl: /
 # Site settings
 title: Awesome Title
 email: your-email@domain.com
-description: " located in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "located in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
+# -----
 
-# Team names, titles and social links
+# Subjects Page
+subjects_heading: Our Favorite Subjects
+subjects_subheading: The people and places that we love to take photos of
+subjects_footer: "Always be respectful. For people: Don't say anything you wouldn't want your mother to see. For places: please take nothing but pictures and leave nothing but footprints."
+
+# Subjects List
 people:
 - name: Kay Garland
   pic: 1
@@ -74,8 +80,12 @@ people:
       url: #
     - title: google-plus
       url: #
-      
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+
+
+# -----
+
+
+# Site Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
     url: http://twitter.com/jekyllrb
