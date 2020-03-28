@@ -35,3 +35,7 @@ Icon
 # Files that might appear on external disk
 .Spotlight-V100
 .Trashes
+.vs/ProjectSettings.json
+.vs/slnx.sqlite
+.vs/gallerytest.pauliver.com/v16/.suo
+.vs/VSWorkspaceState.json
