@@ -16,7 +16,14 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
+                        
+                        {% if post.thumbnail %}
+                        <img src="img/photography/{{ post.thumbnail }}" class="img-responsive img-centered" alt=""> 
+                        {% else %} 
+                        {% assign FoundGallery = site.data.galleryjson.PhotoGalleries | where:"GalleryName", site.data.galleryjson.PhotoGalleries.GalleryName | first %}
+                        <img src="img/photography/{{ FoundGallery.GalleryThumbnail }}" class="img-responsive img-centered" alt="">
+                        {% endif %}
+
                     </a>
                     <div class="portfolio-caption">
                         <h4>{{ post.title }}</h4>
