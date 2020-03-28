@@ -32,10 +32,10 @@
                     </li>
                     <!-- <li>
                         <a class="page-scroll" href="#contact">Contact</a>
-                    </li> <!--
+                    </li> <-->
                 </ul>
             </div>
-            <!-- /.navbar-collapse <!--
+            <!-- /.navbar-collapse -->
         </div>
         <!-- /.container-fluid -->
     </nav>
@@ -44,9 +44,11 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in">Welcome To Our Studio!</div>
-                <div class="intro-heading">It's Nice To Meet You</div>
-                <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
+                <div class="intro-lead-in"> {{ site.header_heading }} </div>
+                <div class="intro-heading"> {{ site.subjects_subheading }} </div>
+                {% if header_button_enabled %}
+                <a href="#{{ site.header_button_target }}" class="page-scroll btn btn-xl">{{ site.header_button_text }}</a>
+                {% endif header_button_enabled %}
             </div>
         </div>
     </header>
