@@ -1,11 +1,21 @@
+
+
+# -----
 url: https://gallerytest.pauliver.com
 baseurl: /
 
+
+# -----
+# Colors are set in data/template.yml
+# explore moving them here at some point in the future
+
+# -----
 # Site settings
 title: Awesome Title
 email: your-email@domain.com
 description: "located in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
+# -----
 # The header at the top of the page
 header_background: /img/header-bg.jpg
 header_heading: Welcome To Our Studio!
@@ -128,16 +138,12 @@ gear:
   description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
 
 # -----
-# Site Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+# Site Social networks usernames (many more available: instagram,  flickr, facebook,  pinterest, dribbble, google-plus, tumblr,  linkedin, etc.)
 social:
   - title: twitter
     url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
+  - title: modelmayhem
+    url: https://www.modelmayhem.com/
   - title: github
     url: http://github.com/jekyll
 

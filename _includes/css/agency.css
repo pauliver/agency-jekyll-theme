@@ -10,6 +10,10 @@ body {
     color: #{{ site.data.template.color.secondary-dark }};
 }
 
+.fa-modelmayhem {
+    content:url("img/logos/mm.png");
+}
+
 .text-muted {
     color: #{{ site.data.template.color.muted }};
 }
