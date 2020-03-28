@@ -17,11 +17,11 @@
                             </div>
                         </div>
                         
+                        {% assign FoundGallery = site.data.galleryjson.PhotoGalleries | where:"GalleryName", post.Gallery_Name | first %}
                         {% if post.thumbnail %}
                         <img src="img/photography/{{ post.thumbnail }}" class="img-responsive img-centered" alt=""> 
-                        {% else %} 
-                        {% assign FoundGallery = site.data.galleryjson.PhotoGalleries | where:"GalleryName", post.Gallery_Name | first %}
-                        <img src="img/photography/{{ FoundGallery.GalleryThumbnail }}" class="img-responsive img-centered" alt="">
+                        {% else if FoundGallery.GalleryThumbnail %} 
+                        <img src="{{site.url}}/{{ FoundGallery.GalleryThumbnail }}" class="img-responsive img-centered" alt="">
                         {% endif %}
 
                     </a>
