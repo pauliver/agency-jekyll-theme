@@ -1,4 +1,3 @@
-# From https://github.com/pauliver/Photo-Gallery-Template/blob/master/.github/workflows/main.yml
 name: Create Thumbnails, Compressed images, Build Jekyll Site, Branch to Release on Success
 env:
   URL: "gallerytest.pauliver.com"
@@ -7,7 +6,9 @@ env:
   CurrentBranch: "master"
   Repo: "gallerytest.pauliver.com" #For everything to work properly, the repo should be named example.pauliver.com
   Owner: "pauliver"
- 
+
+# From https://github.com/pauliver/Photo-Gallery-Template/blob/master/.github/workflows/main.yml
+
 on:
   push:
     paths-ignore:
