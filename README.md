@@ -1,6 +1,26 @@
 Agency Jekyll theme modified for photo gallery usage
 ====================
 
+**Goal:** Re-purpose the Agency theme as a Photo Portfolio with a focus on model photos
+
+
+To Do:
+
+- [ ] Welcome to "our studio" with ???
+    - [ ] replace "It's nice to meet you" with nothing
+- [ ] Replace "tell me more" with "latest work". Toggle off if latest work is > 6 weeks old (javascript not jekyll)
+
+
+
+New Instruction list to create / put all of these in a single file?
+- [ ] How to replace "Welcome to our studio" 
+- [ ] How to replace "Awesome Title"
+- [ ] How to replace "Background image"
+- [ ] How to remove "tell me more" button 
+
+
+====================
+
 Agency theme based on [Agency bootstrap theme ](https://startbootstrap.com/template-overviews/agency/)
 
 # How to use
