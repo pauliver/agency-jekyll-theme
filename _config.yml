@@ -168,9 +168,9 @@ PortfolioPage:
   
 # map image names to captions here. All image names must be unique for now
 PortfolioImages:
-   - name: resized-BestDoge.jpg 
-     caption: Xena hard at work
-   - name: resized-Take%20things%20and%20go.jpg
-     caption: and you think you have a shitty job
-   - name: resized-ZoomBackground.jpeg
-     caption: the perfect zoom background
+   - name: BestDoge.jpg 
+     caption: "Xena hard at work"
+   - name: "Take%20things%20and%20go.jpg"
+     caption: "and you think you have a shitty job"
+   - name: ZoomBackground.jpeg
+     caption: "the perfect zoom background"
