@@ -44,7 +44,7 @@
                                 <div class="image-container-{{gallery.GalleryName}} ImgContainer">
                                 {% for images in gallery.Images %}
                         
-                                {% assign PortfolioCaption = site.PortfolioImages | where "name", images.Name | first %}
+                                {% assign PortfolioCaption = site.PortfolioImages | where: "name", images.Name | first %}
                                 <!-- [![{{images.ThumbnailName}}]({{images.ThumbnailFilePath}})]({{gallery.FullDirectoryPath}}) -->
                                     {% if PortfolioCaption.caption and PortfolioCaption}
                                 <a href="{{images.ResizedFilePath}}" data-fancybox="{{gallery.GalleryName}}" data-caption="{{ PortfolioCaption.caption }}">
@@ -67,7 +67,7 @@
                                 {% for subimages in subGalleries.Images %}
                         
                                 <!--[![{{subimages.ThumbnailName}}]({{subimages.ThumbnailFilePath}})]({{subGalleries.GalleryIndexHTMLFile}}) -->
-                                {% assign SubPortfolioCaption = site.PortfolioImages | where "name", subimages.Name | first %}
+                                {% assign SubPortfolioCaption = site.PortfolioImages | where: "name", subimages.Name | first %}
                                     {% if SubPortfolioCaption.caption and SubPortfolioCaption}
                                 <a href="{{subimages.ResizedFilePath}}" data-fancybox="{{subGalleries.GalleryName}}" data-caption="{{ SubPortfolioCaption.caption }}">
                                     {% else %}
@@ -88,7 +88,7 @@
                                 <div class="image-container-{{ThreesubGalleries.GalleryName}} ImgContainer">       
                                 {% for Threesubimages in ThreesubGalleries.Images %}
                         
-                                {% assign ThreePortfolioCaption = site.PortfolioImages | where "name", Threesubimages.Name | first %}
+                                {% assign ThreePortfolioCaption = site.PortfolioImages | where: "name", Threesubimages.Name | first %}
                                 <!-- [![{{Threesubimages.ThumbnailName}}]({{Threesubimages.ThumbnailFilePath}})]({{ThreesubGalleries.GalleryIndexHTMLFile}}) -->
                                     {% if ThreePortfolioCaption.caption and ThreePortfolioCaption}
                                 <a href="{{Threesubimages.ResizedFilePath}}" data-fancybox="{{ThreesubGalleries.GalleryName}}" data-caption="{{ ThreePortfolioCaption.caption }}">
