@@ -2,14 +2,16 @@
 title: Doge Pictures
 subtitle: Shiba Inu's 
 layout: default
-modal-id: 2
+
 date: 2014-07-17
 img: escape.png
 # thumbnail: escape-thumbnail.png
 alt: image-alt
+
+subject: literally the nearest person
 project-date: March 2020
-client: literally the nearest person
 category: pets and licking
+
 gallery: true
 Gallery_Name: Doges
 description: Pictures of a few lazy Doges
