@@ -7,6 +7,10 @@ baseurl: /
 # explore moving them here at some point in the future
 
 # -----
+# mid upgrade / future features
+enablefancybox: false # need to upgrade jquery first, or this breaks scrollto
+
+# -----
 # Site settings
 title: gallerytest.pauliver.com
 email: your-email@domain.com
