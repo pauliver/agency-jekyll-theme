@@ -1,6 +1,6 @@
 ---
 title: Doge Pictures
-subtitle: Shiba Inu's 
+subtitle: Shiba Inu x 2 
 layout: default
 
 date: 2014-07-17
