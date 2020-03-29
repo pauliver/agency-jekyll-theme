@@ -61,6 +61,12 @@ h6 {
     font-weight: 700;
 }
 
+.img-gallery {
+    border-radius: 25px;
+    padding: 1px;
+    border: 2px solid  #{{ site.data.template.color.secondary }};
+}
+
 .img-centered {
     margin: 0 auto;
 }
