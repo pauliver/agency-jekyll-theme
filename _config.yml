@@ -8,18 +8,18 @@ baseurl: /
 
 # -----
 # Site settings
-title: Awesome Title
+title: gallerytest.pauliver.com
 email: your-email@domain.com
 description: "located in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
 # -----
 # The header at the top of the page
 header_background: /img/header-bg.jpg
-header_heading: Welcome To Our Studio!
-header_leadin: It's Nice To Meet You
+header_heading: Welcome
+header_leadin: #thanks for stopping by
 header_button_text: Tell Me More
 header_button_target: portfolio
-header_button_enabled: true
+header_button_enabled: false
 
 # from the removed contact section
 contact_background: /img/map-image.png
