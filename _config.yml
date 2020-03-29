@@ -8,7 +8,7 @@ baseurl: /
 
 # -----
 # mid upgrade / future features
-enablefancybox: true # need to upgrade jquery first, or this breaks scrollto
+enablefancybox: false # need to upgrade jquery first, or this breaks scrollto
 
 # -----
 # Site settings
@@ -170,7 +170,7 @@ PortfolioPage:
 PortfolioImages:
    - name: BestDoge.jpg 
      caption: "Xena hard at work"
-   - name: "Take%20things%20and%20go.jpg"
+   - name: "Take things and go.jpg"
      caption: "and you think you have a shitty job"
    - name: ZoomBackground.jpeg
      caption: "the perfect zoom background"
