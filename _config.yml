@@ -8,7 +8,7 @@ baseurl: /
 
 # -----
 # mid upgrade / future features
-enablefancybox: false # need to upgrade jquery first, or this breaks scrollto
+enablefancybox: true # need to upgrade jquery first, or this breaks scrollto
 
 # -----
 # Site settings
@@ -166,3 +166,11 @@ PortfolioPage:
   heading: Portfolio 
   subheading: Lorem ipsum dolor sit amet consectetur.
   
+# map image names to captions here. All image names must be unique for now
+PortfolioImages:
+   - name: resized-BestDoge.jpg 
+     caption: Xena hard at work
+   - name: resized-Take%20things%20and%20go.jpg
+     caption: and you think you have a shitty job
+   - name: resized-ZoomBackground.jpeg
+     caption: the perfect zoom background
