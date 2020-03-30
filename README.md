@@ -1,10 +1,12 @@
+
+_If you want something a little less polished, consider using [https://github.com/pauliver/Photo-Gallery-Template](https://github.com/pauliver/Photo-Gallery-Template)_
+
 Agency Jekyll theme modified for photo gallery usage
 ====================
 
 **Goal:** Re-purpose the Agency theme as a Photo Portfolio with a focus on model photos
 
 Most settings have been moved into _config.yml and can be adjusted from there.
-
 
 ====================
 ToDo still:
