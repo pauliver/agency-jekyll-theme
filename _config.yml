@@ -8,7 +8,7 @@ baseurl: /
 
 # -----
 # mid upgrade / future features
-enablefancybox: false # need to upgrade jquery first, or this breaks scrollto
+enablefancybox: true # need to upgrade jquery first, or this breaks scrollto
 
 # -----
 # Site settings
