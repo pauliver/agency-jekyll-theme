@@ -10,7 +10,6 @@ Most settings have been moved into _config.yml and can be adjusted from there.
 
 ====================
 ToDo still:
-- [X] add ModelMayhem support to the "social Network" options
 - [ ] Clean up the gallery stuff
 - [ ] build the hybrid / integrated About / Portfolio look
 - [ ] trim down the modal
