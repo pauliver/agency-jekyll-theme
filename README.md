@@ -48,3 +48,16 @@ View this jekyll theme in action [here](https://gallerytest.pauliver.com/)
 
 =========
 For more details, read [documentation](http://jekyllrb.com/)
+
+
+# Licenses 
+
+**fancyapps** / https://fancyapps.com/fancybox/3/#license 
+- fancybox is licensed under the GPLv3 license for all open source applications.
+- A commercial license is required for all commercial applications (including sites, themes and apps you plan to sell).
+
+**Agency Jekyll Theme**
+
+**jQuery** 
+
+**This Repo** : MIT License
