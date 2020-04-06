@@ -111,31 +111,31 @@
                         
                                 </div>
                                 <script>
+                                {% if site.enablealternatlayout %}
 
-                                {% include single-gallery.js %}
+                                    {% include single-gallery.js %}
 
-
-                                {% for gallery in site.data.galleryjson.PhotoGalleries %}
-                                    {% if post.Gallery_Name == gallery.GalleryName  %}
-                        
-                                        SetupGallery(".image-container-{{gallery.GalleryName}}");
-                        
-                                        {% for subGalleries in gallery.PhotoGalleries %}
-                                    
-                                            SetupGallery(".image-container-{{subGalleries.GalleryName}}");
-                        
-                                            {% for ThreesubGalleries in subGalleries.PhotoGalleries %}
-                                                SetupGallery(".image-container-{{ThreesubGalleries.GalleryName}}");
-
+                                    {% for gallery in site.data.galleryjson.PhotoGalleries %}
+                                        {% if post.Gallery_Name == gallery.GalleryName  %}
                             
+                                            SetupGallery(".image-container-{{gallery.GalleryName}}");
+                            
+                                            {% for subGalleries in gallery.PhotoGalleries %}
+                                        
+                                                SetupGallery(".image-container-{{subGalleries.GalleryName}}");
+                            
+                                                {% for ThreesubGalleries in subGalleries.PhotoGalleries %}
+                                                    SetupGallery(".image-container-{{ThreesubGalleries.GalleryName}}");
+
+                                
+                                                {% endfor %}
+                                
                                             {% endfor %}
-                            
-                                        {% endfor %}
-                            
-                                    {% endif %}
-                                {% endfor %}
+                                
+                                        {% endif %}
+                                    {% endfor %}
 
-                        
+                                {% endif %}
                                 </script> 
                                 <!-- ------- -->
                                 <div>
