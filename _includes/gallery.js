@@ -1,12 +1,9 @@
 
 {% include jquery.justified.js %}
 
-// var JsonString = ` include gallery.json `;
-// var Gallery =  JSON.parse( JsonString );
 
 var GalleryObject = {% include gallery.json %};
 var Iterator = GalleryObject;
-
 
 
 function ForEachGallery(item, index)
@@ -35,18 +32,6 @@ function ForEachGallery(item, index)
 	    margin: 1
 	});
 
-	//item.GalleryName //gallery
-	//item.FullDirectoryPath // "/gallery/"
-	//item.GalleryIndexHTMLFile ///gallery/Index.html
-	//item.GalleryIndexMarkdownFile ///gallery/Index.md
-		
-	//image.ImageWidth
-	//image.ImageHeight
-	//image.ResizedFilePath  		//"gallery\\Amsterdam\\resized-IMG_0499.jpg",
-        //image.ThumbnailFilePath  	// "gallery\\Thumbnails\\thumbnail-Amsterdam-IMG_0499.jpg"	
-	//image.Name
-        //image.Folder
-	//image.OriginalFilePath 		// "gallery\\Amsterdam\\IMG_0499.jpg",
 }
 
 Iterator.PhotoGalleries.forEach(ForEachGallery);

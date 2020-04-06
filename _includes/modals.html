@@ -111,8 +111,30 @@
                         
                                 </div>
                                 <script>
+
+                                {% include single-gallery.js %}
+
+
+                                {% for gallery in site.data.galleryjson.PhotoGalleries %}
+                                    {% if post.Gallery_Name == gallery.GalleryName  %}
                         
-                                {% include gallery.js %}
+                                        SetupGallery(".image-container-{{gallery.GalleryName}}");
+                        
+                                        {% for subGalleries in gallery.PhotoGalleries %}
+                                    
+                                            SetupGallery(".image-container-{{subGalleries.GalleryName}}");
+                        
+                                            {% for ThreesubGalleries in subGalleries.PhotoGalleries %}
+                                                SetupGallery(".image-container-{{ThreesubGalleries.GalleryName}}");
+
+                            
+                                            {% endfor %}
+                            
+                                        {% endfor %}
+                            
+                                    {% endif %}
+                                {% endfor %}
+
                         
                                 </script> 
                                 <!-- ------- -->
