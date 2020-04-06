@@ -6,9 +6,10 @@ baseurl: /
 # Colors are set in ./data/template.yml
 # explore moving them here at some point in the future
 
-# -----
-# mid upgrade / future features
-enablefancybox: true # need to upgrade jquery first, or this breaks scrollto
+# ----- additional functionality
+enablefancybox: true         # fancybox display
+enablealternatlayout: true   # cleanerly layout of images within the modal
+enablejquerymigrate: false   # jQuery upgraded to 3.1.0 for now, will try 3.4.# soon
 
 # -----
 # Site settings
