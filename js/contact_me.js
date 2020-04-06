@@ -65,6 +65,6 @@ $(function() {
 
 
 /*When clicking on Full hide fail/success boxes */
-$('#name').focus(function() {
+$('#name').on("focus",function() {
     $('#success').html('');
 });

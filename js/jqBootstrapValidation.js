@@ -37,7 +37,7 @@
 
         var $siblingElements = this;
 
-        var uniqueForms = $.unique(
+        var uniqueForms = $.uniqueSort(
           $siblingElements.map( function () {
             return $(this).parents("form")[0];
           }).toArray()
@@ -247,7 +247,7 @@
             });
 
             // Remove duplicate validator names
-            validatorNames = $.unique(validatorNames);
+            validatorNames = $.uniqueSort(validatorNames);
 
             // Pull out the new validator names from each shortcut
             newValidatorNamesToInspect = [];
@@ -468,7 +468,7 @@
 
               $form.find("input,select,textarea").not($this).not("[name=\"" + $this.attr("name") + "\"]").trigger("validationLostFocus.validation");
 
-              errorsFound = $.unique(errorsFound.sort());
+              errorsFound = $.uniqueSort(errorsFound.sort());
 
               // Were there any errors?
               if (errorsFound.length) {
