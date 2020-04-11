@@ -19,12 +19,10 @@
                             {% assign FoundImage = FoundGallery.Images | where:"Name", post.img | first %}
 
                             {% if FoundImage.ResizedFilePath %}
-                            <img src="{{ FoundImage.ResizedFilePath }}" class="img-responsive img-centered" alt="{{ post.alt }"> 
+                            <img src="{{ FoundImage.ResizedFilePath }}" class="img-responsive img-centered" alt="{{ post.alt }}"> 
                             {% else %} 
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-                            {% endif %}
-
-                            
+                            {% endif %}                          
 
                             <p>{{ post.description }}</p>
                             <ul class="list-inline item-details">
