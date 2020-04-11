@@ -14,7 +14,16 @@
                         <div class="modal-body">
                             <h2>{{ post.title }}</h2>
                             <hr class="star-primary">
+
+                            {% assign FoundGallery = site.data.galleryjson.PhotoGalleries | where:"GalleryName", post.Gallery_Name | first %}
+                            {% assign FoundImage = FoundGallery.Images | where:"Name", post.img | first %}
+
+                            {% if FoundImage.ResizedFilePath %}
+                            <img src="{{ FoundImage.ResizedFilePath }}" class="img-responsive img-centered" alt="{{ post.alt }}"> 
+                            {% else %} 
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            {% endif %}                          
+
                             <p>{{ post.description }}</p>
                             <ul class="list-inline item-details">
                                 <li>Date:
@@ -110,7 +119,7 @@
                                 {% endfor %}
                         
                                 </div>
-                                <script>
+                                <script type="text/javascript">
                                 {% if site.enablealternatlayout %}
 
                                     {% include single-gallery.js %}
@@ -126,7 +135,7 @@
                             
                                                 {% for ThreesubGalleries in subGalleries.PhotoGalleries %}
                                                     SetupGallery(".image-container-{{ThreesubGalleries.GalleryName}}");
-
+                                                    //These are never called, because of where they are included in the one page website                                                   
                                 
                                                 {% endfor %}
                                 
