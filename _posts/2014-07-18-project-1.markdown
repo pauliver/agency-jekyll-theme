@@ -6,9 +6,9 @@ layout: default
 
 date: 2014-07-18
 
-img: dreams.png
+img: ZoomBackground.jpeg
 #thumbnail: dreams-thumbnail.png
-alt: image-alt
+alt: just a seat, on a plane. feels like i live here...
 
 subject: Everyone
 project-date: March 2020

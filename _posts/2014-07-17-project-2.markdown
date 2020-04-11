@@ -4,9 +4,9 @@ subtitle: Shiba Inu x 2
 layout: default
 
 date: 2014-07-17
-img: escape.png
+img: BestDoge.jpg
 # thumbnail: escape-thumbnail.png
-alt: image-alt
+alt: Who is the goodest dog?
 
 subject: literally the nearest person
 project-date: March 2020
