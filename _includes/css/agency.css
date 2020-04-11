@@ -4,6 +4,43 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+ 
+.ImgContainer{
+    position: relative;
+}
+.photo-container{
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.image-thumb{
+    position: relative;
+    color: #{{ site.data.template.color.primary }};
+}
+.img-container {
+    position: relative;
+    border-radius: 15px;
+}
+  
+.img-textblock {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #{{ site.data.template.color.secondary-dark }};
+    color: #{{ site.data.template.color.primary }};
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 6px;
+}
+  
+img.thumbnail-image{
+    border-radius: 3px;
+}
+  
+img.rounded-corners{
+    border-radius: 5px;
+}
+
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
