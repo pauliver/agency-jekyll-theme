@@ -19,7 +19,7 @@
                         
                         {% assign FoundGallery = site.data.galleryjson.PhotoGalleries | where:"GalleryName", post.Gallery_Name | first %}
                         {% if post.thumbnail %}
-                        <img src="img/portfolio/{{ post.thumbnail }}" class="img-responsive img-centered img-gallery" alt=""> 
+                        <img src="{{site.url}}/gallery/Thumbnails/thumbnail-{{ post.Gallery_Name }}-{{ post.thumbnail }}" class="img-responsive img-centered img-gallery" alt=""> 
                         {% elsif FoundGallery.GalleryThumbnail %} 
                         <img src="{{site.url}}/{{ FoundGallery.GalleryThumbnail }}" class="img-responsive img-centered img-gallery" alt="">
                         {% endif %}
